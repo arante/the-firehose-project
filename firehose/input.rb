@@ -1,1 +1,2 @@
-puts "Today, I wrote code"
+text = "Today, I wrote code"
+puts text
