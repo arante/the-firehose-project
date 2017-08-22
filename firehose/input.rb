@@ -4,8 +4,7 @@
 # Last updated on 2017/07/02 PHT
 
 puts "Enter your name:"
-user_name = gets
-chomped_name = user_name.chomp
+user_name = gets.chomp
 
-greeting = "Hello, #{chomped_name}. You are awesome!"
+greeting = "Hello, #{user_name}. You are awesome!"
 puts greeting
