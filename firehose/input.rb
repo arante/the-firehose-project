@@ -5,3 +5,6 @@
 
 puts "Enter your name:"
 name = gets
+
+greeting = "Hello, #{name}. You are awesome!"
+puts greeting
